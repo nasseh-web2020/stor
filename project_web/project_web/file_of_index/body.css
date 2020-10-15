@@ -1,0 +1,259 @@
+*{
+    direction: rtl;
+
+}
+.container_1{
+    width: 80%;
+    height: 800px;
+    background-color:white;
+    border-style: solid;
+    border-width: 1px;
+    margin: 100px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    display: inline-block;
+    border-color:  rgb(161, 161, 161);
+
+
+}
+.add{
+    width: 50%;
+    height: 800px;
+    background-color: rgb(8, 55, 82);
+    background-color:white;
+
+    display: inline-block;
+margin-left:10px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-color:  rgb(161, 161, 161);
+    border-radius: 5px;
+
+}
+.p_wellcom{
+    width: 50%;
+    font-size: 20px;
+    font-family:cursive;
+    color: rgb(161, 161, 161);
+    margin-right:25% ;
+    padding-bottom: 20px;
+    margin-top: 150px;
+border-width: 10px;
+border-color: crimson;
+}
+.p_step{
+    font-size: 30px;
+    margin-right:35% ;
+    color: rgb(161, 161, 161);
+    margin-top: 50px;
+    
+
+
+}
+.container_2{
+    width: 40%;
+    height: 800px;
+position: absolute;
+    display: inline-block;
+    margin-right: 20px;
+visibility: visible;
+
+}
+.container_SN{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+margin-top: 80px;
+}
+.sitting_number{
+    width: 50%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 9%;
+    font-size: large;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(197, 196, 196);
+
+}
+
+.p_number{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.container_average{
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+
+}
+.average{
+    width: 50%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 5%;
+    font-size: large;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(197, 196, 196);
+
+
+}
+.p_average{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.container_city{
+    width: 100%;
+    display: inline-block;
+
+    margin-top: 50px;
+
+}
+.city{
+    width: 50%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 13%;
+    font-size: large;
+border-radius: 5px;
+
+}
+.p_city{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.container_type{
+    width: 100%;
+    display: inline-block;
+
+    margin-top: 50px;
+
+}
+.type{
+    width: 50%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 9.6%;
+    font-size: large;
+    border-radius: 5px;
+
+}
+.p_type{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.year_graduation{
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+
+}
+.year{
+    width: 70%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 9%;
+    font-size: large;
+border-radius: 5px;
+
+}
+.p_year{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.sent{
+    width: 14%;
+    height: 35px;
+    margin-top: 150px;
+    margin-right: 10%;
+    font-size: large;
+    background-color: crimson;
+color:white;
+border-radius: 5px;
+border-style: none;
+}
+.sent:hover{
+    background-color: rgb(13, 88, 36);
+
+}
+.container_clg{
+    visibility: hidden;
+    width: 40%;
+    height: 800px;
+position: absolute;
+    display: inline-block;
+  
+
+
+}
+.div_clg{
+    width: 100%;
+    display: inline-block;
+   
+    margin-top: 50px;
+}
+.p_clg{
+    font-size: 1.5em;
+    display: inline-block;
+}
+.type_collage{
+    width: 70%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 9%;
+    font-size: large;
+border-radius: 5px;
+
+
+}
+.div_sc{
+    width: 100%;
+    display: inline-block;
+   
+    margin-top: 50px;
+}
+.p_sc{
+    font-size: 1.5em;
+    display: inline-block;
+}
+.type_sc{
+    width: 70%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 9%;
+    font-size: large;
+border-radius: 5px;
+
+
+}
+.sent_2{
+    width: 14%;
+    height: 35px;
+    margin-top: 250px;
+    margin-right: 10%;
+    font-size: large;
+    background-color: crimson;
+color:white;
+border-radius: 5px;
+}
+.sent_2:hover{
+    background-color: rgb(13, 88, 36);
+
+}
+.p_ahmed{
+   
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(161, 161, 161);
+    margin-right:40% ;
+color: rgb(59, 55, 56);
+}
+
+
+
