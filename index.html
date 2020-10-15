@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>menu</title>
+    <link rel="stylesheet" href="file_of_index/style2.css">
+    <link rel="stylesheet" href="file_of_index/body.css">
+    <link rel="stylesheet" href="file_of_index/stylefot.css">
+
+    <script src="jquery-3.2.1.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="block1">
+        
+        <div class="b_ul">
+            <ul>
+                <li class="e"><a href="#">تعليمات</a></li>
+                <li class="in"><a href="#">الاستعلام</a></li>
+                <li class="i"><a href="#">التنسيق</a></li>
+                <li class="h"><a href="#">الرئيسية</a></li>
+            </ul>
+        </div>
+        <form action="file_of_index/php1.php" method="post">
+    </div>
+    <div class="container_1">
+        <div class="add">
+            <p class="p_wellcom">Wellcom to the E-Registration Gate</p>
+            <p class="p_step">الخطوه_الأولى</p>
+        </div>
+       <!----------------the page 1 ------------------------------->
+<!----------form------------------->
+
+        <div class="container_2">
+            <div class="container_SN">
+                <p class="p_number">رقم الجلوس</p>
+                <input type="text" name="p_number" class="sitting_number">
+            </div>
+
+            <div class="container_average">
+                <p class="p_average">المعدل بالكسور</p>
+                <input type="text" name="p_average" class="average">
+            </div>
+
+            <div class="container_city">
+                <p class="p_city"> المحافظة</p>
+                <select  name="p_city"  type="text" class="city">
+                    <option value=" ">اختر المحافظة</option>
+                    <option  value="مارب">مارب</option>
+                    <option  value="الحديدة">الحديدة</option>
+                    <option value="تعز">تعز</option>
+                    <option value="عدن">عدن</option>
+                    <option value="امانةالعاصمة">امانةالعاصمة</option>
+                    <option value="صنعاء">صنعاء</option>
+                    <option value="الجوف">الجوف</option>
+                    <option value="صعدة">صعدة</option>
+                    <option value="اب">اب</option>
+                    <option value="ابين">ابين</option>
+                    <option value="البيضاء">البيضاء</option>
+                    <option value="حجة">حجة</option>
+                    <option value="حضرموت">حضرموت</option>
+                    <option value="ذمار">ذمار</option>
+                    <option value="شبوة">شبوة</option>
+                    <option value="الضالع">الضالع</option>
+                    <option value="عمران">عمران</option>
+                    <option value="لحج">لحج</option>
+                    <option value="المحويت">المحويت</option>
+                    <option value="المهرة">المهرة</option>
+                    <option value="ريمة">ريمة</option>
+                    <option value="خارج الوطن">خارج الوطن</option>
+                    <option value="سقطرى">سقطرى</option>
+                </select>
+            </div>
+
+            <div class="container_type">
+                <p class="p_type"> نوع الثانوية</p>
+                <select name="p_type" class="type">
+                    <option value=" "> اختار نوع االشهادة الثانوية </option>
+                    <option value="علمي"> علمي </option>
+                    <option value="ادبي"> ادبي </option>
+                </select>
+            </div>
+
+
+            <div class="year_graduation">
+                <p class="p_year"> عام التخرج</p>
+                <select name="p_year" class="year">
+                    <option value=" "> اختار عام التخرج - يجب ان تكون من خريجي 2015/2014 فما فوق </option>
+                    <option value="2015/2014"> 2015/2014 </option>
+                    <option value="2016/2015"> 2016/2015 </option>
+                    <option value="2017/2016"> 2017/2016 </option>
+                    <option value="2018/2017"> 2018/2017 </option>
+                    <option value="2019/2018"> 2019/2018 </option>
+                    <option value="2020/2019"> 2020/2019 </option>
+                </select>
+            </div>
+
+            <input type="button" class="sent" value="التالي">
+        </div>
+
+
+<!-------------------the page2----------------------------->
+
+
+
+
+        <div class="container_clg">
+            <div class="div_clg">
+                <p class="p_clg"> الكلية</p>
+                <select name="p_clg"  class="type_collage">
+                    <option  value=" "> إختيار الكلية </option>
+                    <option value="طب">طب</option>
+                     <option value="هندسة">هندسة</option>
+                      <option value="تكنولوجيا المعلومات">تكنولوجيا المعلومات</option>
+                       <option value="محاسبة ">محاسبة </option>
+                </select>
+            </div>
+
+            <div class="div_sc">
+                <p class="p_sc"> القسم</p>
+                <select name="p_sc" class="type_sc">
+                    <option value=" ">إختيارالقسم</option>
+                     <optgroup label="كلية الطب" > 
+                           <option  value=" طب عام ">طب عام</option>
+                       </optgroup> 
+                    
+                     
+                       <optgroup label="كلية تكنولوجيا المعلومات">كلية الهندسة
+                            <option value="علوم حاسوب ">علوم حاسوب</option>
+                            <option value="نظم معلومات ">نظم معلومات</option>
+                            <option value=" تقنية معلومات">تقنية معلومات</option>
+                       </optgroup> 
+                       
+                </select>
+            </div>
+            <input type="button" class="sent_2" value="التالي">
+        </div>
+
+
+
+        <!---------------------the page3--------------------->
+
+
+
+
+        <div class="container_3">
+            <div class="container_name">
+                <p class="p_name">إسم الطالب</p>
+                <input name="p_name" type="text" class="name_s">
+            </div>
+            <div class="container_name">
+                <p class="p_phone">رقم الهاتف</p>
+                <input name="p_phone" type="text" class="name_s">
+            </div>
+            <div class="div_email">
+                <p class="p_email">البريد </p>
+                <input dir="ltr" name="p_email" type="text" class="email">
+            </div>
+            <div class="div_sex">
+                <p class="p_sex"> الجنس</p>
+                <select name="p_sex" type="text" class="sex">
+                     <option value="">الجنس</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+            </div>
+            <div class="div_p_birth">
+                <p class="p_p_birth">محل الميلاد </p>
+                <input name="p_p_birth" type="text" class="name_s">
+            </div>
+
+            <div class="div_dpirth">
+                <p class="p_dpirth">تاريخ الميلاد </p>
+                <input name="p_dpirth" type="text" class="name_s">
+            </div>
+
+
+
+            <input  type="submit" class="sent" id="i" value="التالي">
+        </div>
+
+    </div>
+    
+    <hr>
+    <hr>
+    <hr>
+
+    <p class="p_ahmed">الحقوق محفوظة لدى ahmedalohami@gmail.com</p>
+</form>
+
+</body>
+<script>
+
+
+    $(".bod").hide();
+    $(".text").hide();
+    $(".h").hide();
+    $(".i").hide();
+    $(".in").hide();
+    $(".e").hide();
+    $(document).ready(function () {
+        $(".text").fadeIn(2000);
+        $(".h").delay(1200).fadeIn();
+        $(".i").delay(1400).fadeIn();
+        $(".in").delay(1600).fadeIn();
+        $(".e").delay(1800).fadeIn();
+        $(".bod").delay(2000).fadeIn();
+
+    })
+    $(".sent").click(function () {
+        $(".container_2").hide();
+        $(".container_clg").css({ 'visibility': 'visible' });
+        $(".p_step").html("الخطوه_الثانيه");
+
+    })
+    $(".sent_2").click(function () {
+        $(".container_clg").hide();
+        $(".container_3").css({ 'visibility': 'visible' });
+        $(".p_step").html("الخطوه_الثالثه");
+
+    })
+
+</script>
+
+</html>
