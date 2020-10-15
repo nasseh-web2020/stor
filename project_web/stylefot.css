@@ -1,0 +1,127 @@
+.container_3{
+    width: 40%;
+    height: 800px;
+position: absolute;
+    display: inline-block;
+    margin-right: 20px;
+    visibility: hidden;
+
+
+}
+.container_name{
+    width: 80%;
+    display: inline-block;
+margin-top: 50px;
+}
+.name_s{
+    width: 60%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 9%;
+    font-size:x-large;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(197, 196, 196);
+
+}
+
+.p_name{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.p_phone{
+   font-size: 1.5em;
+    display: inline-block;
+}
+.div_email{
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+margin-top: 50px;
+}
+.email{
+    width: 60%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 17%;
+    font-size:x-large;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(197, 196, 196);
+
+}
+
+.p_email{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+
+.div_sex{
+    width: 80%;
+    display: inline-block;
+margin-top: 50px;
+}
+.sex{
+    width: 20%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 16%;
+    font-size:x-large;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(197, 196, 196);
+
+}
+
+.p_sex{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.div_p_birth{
+    width: 80%;
+    display: inline-block;
+margin-top: 50px;
+}
+.p_birth{
+    width: 60%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 9%;
+    font-size:x-large;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(197, 196, 196);
+
+}
+
+.p_p_birth{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+.div_dpirth{
+    width: 80%;
+    display: inline-block;
+margin-top: 50px;
+}
+.dpirth{
+    width: 60%;
+    height: 35px;
+    display: inline-block;
+    margin-right: 6%;
+    font-size:x-large;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(197, 196, 196);
+
+}
+
+.p_dpirth{
+    font-size: 1.5em;
+    display: inline-block;
+
+}
+

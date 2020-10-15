@@ -1,0 +1,105 @@
+*{
+    font-family: 'janna lt';
+    box-sizing: border-box;
+    direction: rtl;
+}
+.logo{
+    text-align: center;
+    margin: 40px 0;
+}
+.logo img{
+    width: 100px;
+   
+}
+.logo h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #00a9b0;
+}
+.book{
+    text-align: center
+}
+.book p{
+    font-size: 24px;
+}
+.book input{
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.book input[type="submit"]{
+    font-size: 16px;
+    color: #fff;
+    background: #00a9b0;
+    border: none;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+      background: #8844ff;
+}
+th{
+    background: #8844ff;
+    color: #fff;
+    padding: 5px 0;
+}
+
+/*_______________ahmed_____________________*/
+body{
+    background-color: white;
+    direction: rtl;
+}
+.block{
+    width: 70%;
+    height: 500px;
+    margin-right: 15%;
+    margin-top: 60px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 1px 5px rgb(77, 167, 164);
+
+
+}
+.header{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(77, 177, 173);
+
+}
+.title{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: xx-large;
+    color: darkgrey;
+    margin-right: 50px;
+  
+}
+.name{
+    
+    font-size: large;
+    width: 45%;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+border-style: none;
+border-bottom-style: solid;
+border-width: 1px;
+border-color: rgb(77, 163, 160);
+
+}
+.name:hover{
+    box-shadow: 1px 1px 5px rgb(77, 163, 160);
+}
+.seend{
+    width: 100%;
+    height: 50px;
+  
+    background-color: rgb(77, 163, 160);
+    font-size: x-large;
+
+
+}
+
