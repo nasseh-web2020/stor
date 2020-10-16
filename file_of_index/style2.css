@@ -20,6 +20,18 @@ background-color: white;
     border-color:  rgb(161, 161, 161);
     /*box-shadow: 10px 10px 10px rgb(158, 103, 103);*/
     }
+    .titel1  {
+direction: ltr;
+margin-top: 5px;
+background-color: #708329;
+width: 300px;
+height: 30px;
+font-size: 30px
+
+    }
+       .titel1 >p {
+color: white;
+       }
     .log{
         font-size: large;
     }
